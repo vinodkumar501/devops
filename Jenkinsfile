@@ -8,7 +8,7 @@ pipeline {
 		  	
           steps {
 				
-               sh ‘yum update -y’
+               sh "hostname"
 				
                sh "echo ‘building an application’"
 			
