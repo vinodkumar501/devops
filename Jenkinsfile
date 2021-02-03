@@ -8,10 +8,8 @@ pipeline {
 		  	
           steps {
 				
-               sh ‘npm install’
-			
-               sh ‘npm build’
-			
+               sh ‘yum update -y’
+				
                sh "echo ‘building an application’"
 			
              }
