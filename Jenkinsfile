@@ -10,7 +10,7 @@ pipeline {
 				
                sh "hostname"
 				
-               sh "echo ‘building an application’"
+               sh "echo building an application"
 			
              }
 		
@@ -20,7 +20,7 @@ pipeline {
 		
           steps {
 				
-		sh "echo ‘testing an application’"
+		sh "echo testing an application"
 			
              }
 		
@@ -30,7 +30,7 @@ pipeline {
 		
           steps {
 						
-              sh "echo ‘deploying an application’"
+              sh "echo deploying an application"
 			
              }
 		
