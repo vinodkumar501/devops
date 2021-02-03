@@ -12,7 +12,7 @@ pipeline {
 			
               //sh ‘npm build’
 			
-               echo ‘building an application . .’
+               echo ‘building an application’
 			
              }
 		
